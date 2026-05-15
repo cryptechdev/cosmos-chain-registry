@@ -1138,7 +1138,7 @@
       "description": "A receipt token for lent USDC issued by the Neptune Protocol.",
       "denom_units": [
         {
-          "denom": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+          "denom": "inj1xvfftg7s8kcr3q6l90lcer73pssl7jtzwht6df",
           "exponent": 0
         },
         {
@@ -1146,10 +1146,44 @@
           "exponent": 6
         }
       ],
-      "base": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+      "base": "inj1xvfftg7s8kcr3q6l90lcer73pssl7jtzwht6df",
       "name": "Neptune Receipt USDC",
       "display": "nUSDC",
       "symbol": "nUSDC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+            "contract": "inj1nc7gjkf2mhp34a6gquhurg8qahnw5kxs5u3s4u"
+          },
+          "provider": "Neptune"
+        }
+      ],
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdc.png"
+        }
+      ],
+      "type_asset": "sdk.coin"
+    },
+    {
+      "description": "A receipt token for lent USDCnb issued by the Neptune Protocol.",
+      "denom_units": [
+        {
+          "denom": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+          "exponent": 0
+        },
+        {
+          "denom": "nUSDCnb",
+          "exponent": 6
+        }
+      ],
+      "base": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
+      "name": "Neptune Receipt USDCnb",
+      "display": "nUSDCnb",
+      "symbol": "nUSDCnb",
       "traces": [
         {
           "type": "synthetic",
@@ -1163,7 +1197,7 @@
       ],
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdc.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdcnb.png"
         }
       ],
       "type_asset": "sdk.coin"
